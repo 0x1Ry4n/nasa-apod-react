@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nasa-apod-react/static/css/main.cae250d2.css",
+    "main.js": "/nasa-apod-react/static/js/main.802a8e53.js",
+    "static/js/787.8916eb5e.chunk.js": "/nasa-apod-react/static/js/787.8916eb5e.chunk.js",
+    "index.html": "/nasa-apod-react/index.html",
+    "main.cae250d2.css.map": "/nasa-apod-react/static/css/main.cae250d2.css.map",
+    "main.802a8e53.js.map": "/nasa-apod-react/static/js/main.802a8e53.js.map",
+    "787.8916eb5e.chunk.js.map": "/nasa-apod-react/static/js/787.8916eb5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cae250d2.css",
+    "static/js/main.802a8e53.js"
+  ]
+}
