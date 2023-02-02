@@ -2,11 +2,12 @@ import { useEffect, useState } from 'react'
 import Card from './components/Card/Card';
 
 function App() {
-  const base_url = "https://api.nasa.gov/planetary/apod?api_key=liHndHe6eFJ4ONSezGNzVsZ5uwFVgnzeDbafhMA5";
+  const api_key = process.env.REACT_APP_API_KEY;
+  const base_url = "https://api.nasa.gov/planetary/apod?api_key=";
   const [data, setData] = useState({});
 
   async function fetchData() {
-    await fetch(`${base_url}`)
+    await fetch(`${base_url}${api_key}`)
       .then(res => res.json())
       .then(data => {
         setData(data);  
