@@ -9,6 +9,7 @@
 .Accordion-Content #title {
     color: gainsboro;
     width: 70%;
+    font-weight: 600;
 }
 
 .Accordion-Content #date {

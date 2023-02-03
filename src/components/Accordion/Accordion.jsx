@@ -4,6 +4,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import moment from 'moment/moment';
 import './Accordion.css';
 
 function SimpleAccordion(props) {
@@ -15,7 +16,7 @@ function SimpleAccordion(props) {
                 id="panel1a-header"
             >
                 <Typography class="info" id="title">{props.title}</Typography>
-                <Typography class="info" id="date">{props.date}</Typography>
+                <Typography class="info" id="date">{moment(props.date).format("DD/MM/YYYY")}</Typography>
             </AccordionSummary>
             <AccordionDetails>
                 <Typography class="info" id="details">
