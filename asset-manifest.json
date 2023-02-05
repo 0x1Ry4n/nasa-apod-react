@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nasa-apod-react/static/css/main.b0382679.css",
-    "main.js": "/nasa-apod-react/static/js/main.74b4afdf.js",
+    "main.css": "/nasa-apod-react/static/css/main.bc2f8517.css",
+    "main.js": "/nasa-apod-react/static/js/main.85698a03.js",
     "static/js/787.8916eb5e.chunk.js": "/nasa-apod-react/static/js/787.8916eb5e.chunk.js",
     "index.html": "/nasa-apod-react/index.html",
-    "main.b0382679.css.map": "/nasa-apod-react/static/css/main.b0382679.css.map",
-    "main.74b4afdf.js.map": "/nasa-apod-react/static/js/main.74b4afdf.js.map",
+    "main.bc2f8517.css.map": "/nasa-apod-react/static/css/main.bc2f8517.css.map",
+    "main.85698a03.js.map": "/nasa-apod-react/static/js/main.85698a03.js.map",
     "787.8916eb5e.chunk.js.map": "/nasa-apod-react/static/js/787.8916eb5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0382679.css",
-    "static/js/main.74b4afdf.js"
+    "static/css/main.bc2f8517.css",
+    "static/js/main.85698a03.js"
   ]
 }
