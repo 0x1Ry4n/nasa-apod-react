@@ -5,6 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
 import SimpleAccordion from "../Accordion/Accordion";
 import "./Card.css";
+import Loader from "./Loader";
 
 function SimpleCard(props) {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -21,9 +22,12 @@ function SimpleCard(props) {
             component="img"
             style={{ objectFit: "cover" }}
             title={props.img}
+            onLoad={handleImageLoaded}
             onClick={() => window.open(props.img, "_blank")}
             image={props.img}
           />
+
+          {!imageLoaded ? <Loader /> : <Card />}
 
           <CardContent>
             <SimpleAccordion
