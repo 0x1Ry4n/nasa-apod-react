@@ -1,21 +1,21 @@
 .Accordion-Content {
-    background-color: rgba(31, 29, 29, 0.76) !important;
+  background-color: rgba(31, 29, 29, 0.76) !important;
 }
 
 .Accordion-Content .info {
-    font-size: 11pt;
+  font-size: 11pt;
 }
 
 .Accordion-Content #title {
-    color: gainsboro;
-    width: 70%;
-    font-weight: 600;
+  color: gainsboro;
+  width: 70%;
+  font-weight: 600;
 }
 
 .Accordion-Content #date {
-    color: #BEBEBE; 
+  color: #bebebe;
 }
 
 .Accordion-Content #details {
-    color: #BEBEBE;
+  color: #bebebe;
 }
